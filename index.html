@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,69 +8,84 @@
     <title>TIMBERS</title>
     <link rel="stylesheet" href="tailwind.css">
 </head>
+
 <body class="bg-white min-h-screen p-2 md-p-4 lg-p-8 lg:px-16 sm:px-4 md:px-8">
     <h1 class="absolute left-[50%] transform -translate-x-1/2 
              text-2xl font-bold tracking-wide text-gray-900 ">
-    TIMBERS
-  </h1>
-  <br>
-  
+        TIMBERS
+    </h1>
+    <br>
+
     <nav class="w-100% flex items-center justify-between px-6 py-8 bg-white shadow md-px-12 sm-px-8 mt-1">
-  
-  <ul class="flex items-center gap-2 text-gray-700 font-medium sm-gap-2">
-    <li class="cursor-pointer hover:text-gray-900 transition">Home</li>
-    <li class="cursor-pointer hover:text-gray-900 transition">About</li>
-    <li class="cursor-pointer hover:text-gray-900 transition">Contact</li>
-  </ul>
 
-  
-  
+        <ul class="flex items-center gap-2 text-gray-700 font-medium sm-gap-2">
+            <li class="cursor-pointer hover:text-gray-900 transition">Home</li>
+            <li class="cursor-pointer hover:text-gray-900 transition">About</li>
+            <li class="cursor-pointer hover:text-gray-900 transition">Contact</li>
+        </ul>
 
- 
-  <button class="text-gray-700 hover:text-gray-900 transition">
+
+
+
+
+        <button class="text-gray-700 hover:text-gray-900 transition">
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1010.5 18a7.5 7.5 0 006.15-3.35z" />
+            </svg>
+        </button>
+
+    </nav>
+
+
+    <section class="px-4 py-4 bg-[#bdff8a] md:px-12 sm:px-8 rounded-[10px] mt-4 text-center">
     
-    <svg xmlns="http://www.w3.org/2000/svg" 
-         fill="none" viewBox="0 0 24 24" stroke-width="1.5" 
-         stroke="currentColor" class="w-6 h-6">
-      <path stroke-linecap="round" stroke-linejoin="round" 
-            d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1010.5 18a7.5 7.5 0 006.15-3.35z" />
-    </svg>
-  </button>
+        <h2 class="text-3xl font-bold mb-4 text-center">Living Furniture You Love</h2>
+        
+        <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+    
+            
+            <div class="w-full md:w-1/2 text-center">
+                <p>Discover our exclusive collection of furniture, thoughtfully crafted to blend timeless style with exceptional comfort, transforming every room into a space you’ll love to live in.</p>
+                
+            </div>
 
-</nav>
-
-
-    <section class="flex items-center justify-between px-6 py-12 bg-[#bdff8a] 
-                    md-px-12 sm-px-8 rounded-[10px] mt-4">
-        <div class="max-w-lg">
-            <h2 class="text-3xl font-bold mb-4">Living Furniture You Love</h2>
-            <p class="mb-6">Discover our exclusive collection of furniture that combines style and comfort.</p>
-            <button class="bg-gray-900 text-white px-4 py-2 rounded">Shop Now</button>
+            <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+                <img class="max-w-[60%] rounded-[10px]" src='assets/Hero.png' alt="Hero Image">
+            </div>
+    
+    
         </div>
-        <div class="max-w-sm">
-            <img src='assets/Hero.png' alt="Hero Image">
+        <button class="bg-gray-900 text-white px-4 py-2 rounded hover:bg-gray-700 transition text-center ">
+            Shop Now
+        </button>
+    
+    </section>
 
-    </section class="mt-8">
-    <h2 class="text-2xl font-bold mt-8 mb-4 text-center">Top Categories</h2>
-    <div class="grid grid-cols-4 gap-4 mt-8">
-  
-  <div class="rounded-[5%] overflow-hidden border border-gray-200 shadow-sm">
-    <img class="w-full h-full object-cover" src="assets/decor_1.jpg" alt="decor">
-  </div>
+    <section class="mt-8">
+        <h2 class="text-2xl font-bold mt-8 mb-4 text-center">Top Categories</h2>
+        <div class="grid grid-cols-4 gap-4 mt-8">
 
-  <div class="rounded-[5%] overflow-hidden border border-gray-200 shadow-sm">
-    <img class="w-full h-full object-cover" src="assets/chair_1.jpg" alt="Chair">
-  </div>
+            <div class="rounded-[5%] overflow-hidden border border-gray-200 shadow-sm">
+                <img class="w-full h-full object-cover" src="assets/decor_1.jpg" alt="decor">
+            </div>
 
-  <div class="rounded-[5%] overflow-hidden border border-gray-200 shadow-sm">
-    <img class="w-full h-full object-cover" src="assets/decor_2.jpg" alt="lamp">
-  </div>
+            <div class="rounded-[5%] overflow-hidden border border-gray-200 shadow-sm">
+                <img class="w-full h-full object-cover" src="assets/chair_1.jpg" alt="Chair">
+            </div>
 
-  <div class="rounded-[5%] overflow-hidden border border-gray-200 shadow-sm">
-    <img class="w-full h-full object-cover" src="assets/sofa.jpg" alt="sofa">
-  </div>
+            <div class="rounded-[5%] overflow-hidden border border-gray-200 shadow-sm">
+                <img class="w-full h-full object-cover" src="assets/decor_2.jpg" alt="lamp">
+            </div>
 
-</div>
+            <div class="rounded-[5%] overflow-hidden border border-gray-200 shadow-sm">
+                <img class="w-full h-full object-cover" src="assets/sofa.jpg" alt="sofa">
+            </div>
+
+        </div>
+    </section>
 
 
     <section class="mt-8">
@@ -79,116 +95,126 @@
                 <img src="assets/couch.jpg" alt="Sofa 2" class="w-full object-cover">
                 <div class="mt-auto py-3">
                     <h3 class="font-semibold text-center">Modern Sofa</h3>
-                <p class="text-gray-700 text-center">$499</p>
+                    <p class="text-gray-700 text-center">$499</p>
                 </div>
             </div>
             <div class="rounded-[5%] overflow-hidden border border-gray-200 shadow-sm flex flex-col">
                 <img src="assets/Table.jpg" alt="Table 2" class="w-full object-cover">
                 <div class="mt-auto py-3">
                     <h3 class="font-semibold text-center">Wooden Table</h3>
-                <p class="text-gray-700 text-center">$299</p>
+                    <p class="text-gray-700 text-center">$299</p>
                 </div>
             </div>
             <div class="rounded-[5%] overflow-hidden border border-gray-200 shadow-sm flex flex-col">
                 <img src="assets/chair2.jpg" alt="Chair 2" class="w-full object-cover">
                 <div class="mt-auto py-3">
                     <h3 class="font-semibold text-center">Comfort Chair</h3>
-                <p class="text-gray-700 text-center">$199</p>
+                    <p class="text-gray-700 text-center">$199</p>
                 </div>
             </div>
 
             <div class="col-span-3 flex justify-center">
-                <button class="bg-gray-900 text-white px-2 py-1 rounded mt-4 mx-auto ">View More</button>
+                <button class="bg-gray-900 text-white px-2 py-1 rounded mt-4 mx-auto hover:bg-gray-700">View
+                    More</button>
             </div>
         </div>
         <div class="flex mt-12 p-6 bg-[#bdff8a] text-center justify-center flex-col items-center rounded-[10px]">
             <h4>Order Now for an Exclusive Discount!</h4>
-            <button class="bg-gray-900 text-white px-2 py-1 rounded mt-2">Order Now</button>
+            <button class="bg-gray-900 text-white px-2 py-1 rounded mt-2 hover:bg-gray-700 ">Order Now</button>
         </div>
 
     </section>
     <h2 class="text-2xl font-bold mt-8 mb-4 text-center">Featured Decors</h2>
     <div class="grid grid-cols-3 gap-4 mt-8">
         <div class="rounded-[5%] overflow-hidden border border-gray-200 shadow-sm flex flex-col">
-    <img src="assets/decor.jpg" alt="decor" class="w-full object-cover">
+            <img src="assets/decor.jpg" alt="decor" class="w-full object-cover">
 
-    <div class="mt-auto py-3">
-        <h3 class="font-semibold text-center">Modern Decor</h3>
-        <p class="text-gray-700 text-center">$499</p>
-    </div>
-</div>
+            <div class="mt-auto py-3">
+                <h3 class="font-semibold text-center">Modern Decor</h3>
+                <p class="text-gray-700 text-center">$499</p>
+            </div>
+        </div>
 
-            <div class="rounded-[5%] overflow-hidden border border-gray-200 shadow-sm flex flex-col">
-                <img src="assets/chairs.jpg" alt="chairs 2" class="w-full object-cover">
-                <div class="mt-auto py-3">
-                    <h3 class="font-semibold text-center">Wooden Chairs</h3>
+        <div class="rounded-[5%] overflow-hidden border border-gray-200 shadow-sm flex flex-col">
+            <img src="assets/chairs.jpg" alt="chairs 2" class="w-full object-cover">
+            <div class="mt-auto py-3">
+                <h3 class="font-semibold text-center">Wooden Chairs</h3>
                 <p class="text-gray-700 text-center">$299</p>
-                </div>
             </div>
-            <div class="rounded-[5%] overflow-hidden border border-gray-200 shadow-sm flex flex-col">
-                <img src="assets/bin.jpg" alt="bin" class="w-full object-cover">
-                <div class="mt-auto py-3">
-                    <h3 class="font-semibold text-center">Comfort Pillow</h3>
+        </div>
+        <div class="rounded-[5%] overflow-hidden border border-gray-200 shadow-sm flex flex-col">
+            <img src="assets/bin.jpg" alt="bin" class="w-full object-cover">
+            <div class="mt-auto py-3">
+                <h3 class="font-semibold text-center">Comfort Pillow</h3>
                 <p class="text-gray-700 text-center">$199</p>
-                </div>
             </div>
+        </div>
     </div>
 
     <div class="col-span-3 flex justify-center">
-                <button class="bg-gray-900 text-white px-2 py-1 rounded mt-4 mx-auto ">View More</button>
+        <button class="bg-gray-900 text-white px-2 py-1 rounded mt-4 mx-auto hover:bg-gray-700">View More</button>
+    </div>
+    <br>
+    <div class="w-100% flex items-center justify-center px-6 py-4 bg-white shadow md-px-12 sm-px-8 ">
+        <ul class="flex items-center gap-4 text-gray-700 sm-gap-2 ">
+            <li class="lg:px-12 cursor-pointer hover:text-gray-900 transition">
+                Shop Online
+            </li>
+            <li class="lg:px-12 cursor-pointer hover:text-gray-900 transition">
+                Free Shipping
+            </li>
+            <li class="lg:px-12 cursor-pointer hover:text-gray-900 transition">
+                Return Policy
+            </li>
+            <li class="lg:px-12 cursor-pointer hover:text-gray-900 transition">
+                Easy Payments
+            </li>
+        </ul>
+    </div>
+
+
+    <section class="px-6 py-12 bg-[#bdff8a] md:px-12 sm:px-8 mt-8 rounded-[10px]">
+
+        <h2 class="text-3xl font-bold mb-8 text-center w-full">
+            What Makes Us Different
+        </h2>
+
+        <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+
+            <div class="w-full md:w-1/2 flex justify-center md:justify-start">
+                <img class="max-w-[80%] rounded-[10px]" src="assets/last_section.jpg" alt="Furniture">
             </div>
-            <br>
-            <div class="w-100% flex items-center justify-between px-6 py-4 bg-white shadow md-px-12 sm-px-8">
-                <ul class="flex items-center gap-4 text-gray-700 sm-gap-2 ">
-                    <li>
-                        Shop Online
-                    </li>
-                    <li>
-                        Free Shipping
-                    </li>
-                    <li>
-                        Return Policy
-                    </li>
-                    <li>
-                        Easy Payments
-                    </li>
-                </ul>
+
+            <div class="w-full md:w-1/2 max-w-lg">
+                <p class="mb-6">
+                    At Furnish, we prioritize quality and customer satisfaction above all else. Every piece of furniture
+                    we create is thoughtfully designed and meticulously crafted, combining long-lasting durability with
+                    timeless style. From the materials we select to the craftsmanship we uphold, our goal is to ensure
+                    that each item not only enhances your space but also provides comfort.
+                </p>
+
+                <button class="bg-gray-900 text-white px-2 py-1 rounded hover:bg-gray-700 transition">
+                    Learn More
+                </button>
             </div>
 
-   
-    <section class="flex items-center justify-between px-6 py-12 bg-[#bdff8a] 
-                    md-px-12 sm-px-8 mt-8 rounded-[10px]">
-        <div class=" max-w-md ">
-            <img class="max-w-[80%] rounded-[10px]" src="assets/last_section.jpg" alt="Furniture">
         </div>
-        <div class="max-w-lg">
-            <h2 class="text-3xl font-bold mb-4">
-                What Makes Us Different
-            </h2>
-            <p class="mx-auto">
-                At Furnish, we prioritize quality and customer satisfaction. Our furniture is crafted with care to ensure durability and style.
-            </p>
-
-            <button class="bg-gray-900 text-white px-2 py-1 rounded mt-4">
-                Learn More
-            </button>
-        </div>
-
     </section>
 
     <footer class="mt-12">
 
         <div class="bg-gray-200 text-gray-700 p-6 grid grid-cols-4 gap-4 text-center">
-            <p >Shop</p>
+            <p>Shop</p>
             <p>My Account</p>
             <p>Terms of USe</p>
             <p>Privacy Policy</p>
         </div>
-        <div class="bg-black text-white p-6 text-center">
+        <div class="bg-black text-white p-6 text-center text-sm">
             &copy; 2025 TIMBERS. All rights reserved.
         </div>
 
 
     </footer>
 </body>
+
 </html>
