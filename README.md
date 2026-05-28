@@ -1,23 +1,23 @@
-# 🌲 Timbers-frontend
+#  Timbers-frontend
 
 
 
 A clean, static website built with HTML5 + Tailwind CSS.
 This repo contains the source for Timbers — a simple, responsive site styled with Tailwind, hosted via GitHub.
 
-*🛠️ Tech Stack*
+* Tech Stack*
 
 HTML5
 
 Tailwind CSS
 
-*🚀 Live Demo*
+* Live Demo*
 
 You can view the live site here:
 https://omar-webcloud.github.io/Timbers-frontend/
 
 
-*🧰 Clone the repository*
+* Clone the repository*
 
 git clone https://github.com/Omar-webcloud/Timbers-frontend.git
 cd Timbers-frontend
@@ -35,7 +35,7 @@ Timbers-frontend/
 
 Feel free to reorganize or rename directories — but ensure your HTML references the correct CSS and asset paths.
 
-*🤝 Contributing*
+* Contributing*
 
 Want to improve the layout, add new pages, or tweak styling?
 
