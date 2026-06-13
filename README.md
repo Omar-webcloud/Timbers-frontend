@@ -1,4 +1,4 @@
-#  Timbers-frontend
+#  Timbers
 
 
 
@@ -13,7 +13,7 @@ Tailwind CSS
 
 ## Live Demo
 
-You can view the live site here:
+
 https://omar-webcloud.github.io/Timbers-frontend/
 
 
